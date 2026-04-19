@@ -13,7 +13,7 @@ jobs:
         shell: pwsh
         run: |
           $username = "rdpadmin"
-          $plainPassword = "GitHubRunner2026SecurePass"
+          $plainPassword = "GitHub Runner 2026 Secure Pass"
           $password = ConvertTo-SecureString $plainPassword -AsPlainText -Force
           
           Write-Host "Creating new local user..."
